@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: 
+        linear-gradient(
+            -160deg,
+            rgb(197, 197, 197),
+            rgb(128, 128, 128),
+            rgb(48, 48, 48)
+        )
+    ;
+}
+span{
+    font-family: 'Open Sans', sans-serif;
+}
+.comment{
+    color: #fff;
+}
+.mybtn{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    outline: none;
+}
+.mybtn:hover{
+    background-color: #aaa;
+}
+.Active
+,.Active:hover{
+    color: #fff;
+    background-color: #333;
+    border: 2px solid rgb(240, 208, 49);
+}
+
+#item {
+    margin-left: -40px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 
+        repeat(auto-fit,minmax(15rem,1fr))
+    ;
+    grid-gap: 0.6rem;
+}
+.myItem{
+    padding: 10px 20px;
+    background-image: 
+        linear-gradient(
+            160deg,
+            rgb(197, 197, 197),
+            rgb(128, 128, 128),
+            rgb(48, 48, 48)
+        )
+    ;
+}
+.myItem:hover{
+    box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.5);
+}
